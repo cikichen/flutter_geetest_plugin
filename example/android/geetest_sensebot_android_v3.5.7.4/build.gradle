@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('geetest_sensebot_android_v3.5.7.4.aar'))

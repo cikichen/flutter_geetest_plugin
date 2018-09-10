@@ -1,0 +1,30 @@
+PODS:
+  - Flutter (1.0.0)
+  - geetest_plugin (0.0.1):
+    - Flutter
+    - GT3Captcha
+  - GT3Captcha (0.0.9)
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios`)
+  - geetest_plugin (from `.symlinks/plugins/geetest_plugin/ios`)
+  - GT3Captcha
+
+SPEC REPOS:
+  "ssh://git@phab.srv.codemao.cn/source/ios_common_spec_repo.git":
+    - GT3Captcha
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  geetest_plugin:
+    :path: ".symlinks/plugins/geetest_plugin/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
+  geetest_plugin: 1ae8da023b0076d439b536451d2714cd2aedf6c1
+  GT3Captcha: 91bc60f3e323debd982213c2d58bd6d24fec4eaa
+
+PODFILE CHECKSUM: 8a97d9a51fb964bec05eea208689c6dee81dcf24
+
+COCOAPODS: 1.6.0.beta.1

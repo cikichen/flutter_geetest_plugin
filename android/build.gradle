@@ -1,0 +1,37 @@
+group 'me.ithome.geetestplugin'
+version '1.0-SNAPSHOT'
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.2'
+    }
+}
+rootProject.allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+apply plugin: 'com.android.library'
+android {
+    compileSdkVersion 27
+
+    defaultConfig {
+        minSdkVersion 16
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+
+
+}
+
+dependencies {
+    implementation project(':geetest_sensebot_android_v3.5.7.4')
+    implementation 'com.android.support:appcompat-v7:25.1.1'
+}
