@@ -13,7 +13,7 @@ Basic function version, waiting for iteration.
     try {
       result = await GeetestPlugin.getGeetest('url: api1');
     } on PlatformException {
-//      platformVersion = 'Failed to get platform version.';
+//      _json = 'Failed to get platform version.';
     }
 
     // If the widget was removed from the tree while the asynchronous platform
@@ -22,7 +22,7 @@ Basic function version, waiting for iteration.
     if (!mounted) return;
 
     setState(() {
-      _platformVersion = result;
+      _json = result;
     });
   }
  ```
