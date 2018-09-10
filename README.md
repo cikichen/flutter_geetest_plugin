@@ -4,7 +4,25 @@ Geetest Flutter plugin.
 
 ## Getting Started
 
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+Basic function version, waiting for iteration.
 
-For help on editing plugin code, view the [documentation](https://flutter.io/developing-packages/#edit-plugin-package).
+```
+  Future<void> getGeetest() async {
+    String result;
+    // Platform messages may fail, so we use a try/catch PlatformException.
+    try {
+      result = await GeetestPlugin.getGeetest('url: api1');
+    } on PlatformException {
+//      platformVersion = 'Failed to get platform version.';
+    }
+
+    // If the widget was removed from the tree while the asynchronous platform
+    // message was in flight, we want to discard the reply rather than calling
+    // setState to update our non-existent appearance.
+    if (!mounted) return;
+
+    setState(() {
+      _platformVersion = result;
+    });
+  }
+ ```
