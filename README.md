@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/cikichen/flutter_geetest_plugin.svg?branch=master)](https://travis-ci.com/cikichen/flutter_geetest_plugin)
+
 # geetest_plugin
 
 Geetest Flutter plugin.
