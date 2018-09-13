@@ -6,7 +6,7 @@ Geetest Flutter plugin.
 
 ## Screenshot
 
-![Screenshot](screenshots/demo.gif)
+![Screenshot](screenshots/demo.gif =244.57x500.86)
 
 ## Getting Started
 
