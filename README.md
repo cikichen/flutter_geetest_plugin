@@ -4,6 +4,10 @@
 
 Geetest Flutter plugin.
 
+## Screenshot
+
+![Screenshot](screenshots/demo.gif)
+
 ## Getting Started
 
 Basic function version, waiting for iteration.
