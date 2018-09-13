@@ -6,7 +6,8 @@ Geetest Flutter plugin.
 
 ## Screenshot
 
-![Screenshot](screenshots/demo.gif){:height="50%" width="50%"}
+<!-- ![Screenshot](screenshots/demo.gif){:height="50%" width="50%"} -->
+<img src="screenshots/demo.gif" style="zoom:50%" />
 
 ## Getting Started
 
