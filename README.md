@@ -7,7 +7,6 @@ Geetest Flutter plugin.
 ## Screenshot
 
 ![Screenshot](screenshots/demo.gif)
-<!-- <img src="screenshots/demo.gif" width="30%" height="30%" /> -->
 
 ## Getting Started
 
@@ -34,7 +33,7 @@ Basic function version, waiting for iteration.
   }
  ```
 
- FAQ: 
+ ## FAQ: 
 
  1. [!] The 'Pods-Runner' target has transitive dependencies that include static binaries:
 
