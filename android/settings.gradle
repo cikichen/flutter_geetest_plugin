@@ -1,3 +1,4 @@
 rootProject.name = 'geetest_plugin'
+
 include ':geetest_sensebot_android_v3.5.7.4'
-project(':geetest_sensebot_android_v3.5.7.4').projectDir = file('example/android/geetest_sensebot_android_v3.5.7.4')
+project(':geetest_sensebot_android_v3.5.7.4').projectDir = file('geetest_sensebot_android_v3.5.7.4')
