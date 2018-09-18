@@ -1,6 +1,4 @@
-apply from: '../../android/settings.gradle'
-
-include ':app'
+include ':app', ':geetest_sensebot_android_v3.5.7.4'
 
 def flutterProjectRoot = rootProject.projectDir.parentFile.toPath()
 

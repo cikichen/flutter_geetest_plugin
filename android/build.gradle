@@ -32,6 +32,6 @@ android {
 }
 
 dependencies {
-    implementation project(':geetest_sensebot_android_v3.5.7.4')
     implementation 'com.android.support:appcompat-v7:25.1.1'
+    api project(':geetest_sensebot_android_v3.5.7.4')
 }

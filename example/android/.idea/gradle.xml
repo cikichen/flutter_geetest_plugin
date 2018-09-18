@@ -8,9 +8,9 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/../../android" />
-            <option value="$PROJECT_DIR$/../../android/geetest_sensebot_android_v3.5.7.4" />
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/geetest_sensebot_android_v3.5.7.4" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
