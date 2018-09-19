@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="gt3CustomTheme">
+        <attr format="reference" name="gt3gifViewStyle"/>
+    </declare-styleable>
+    <declare-styleable name="gt3GifView">
+        <attr format="reference" name="gt3gif"/>
+        <attr format="boolean" name="gt3paused"/>
+    </declare-styleable>
+    <string name="gt3_geetest_again">驗證未通過 請重試</string>
+    <string name="gt3_geetest_click">點擊按鈕進行驗證</string>
+    <string name="gt3_geetest_click_again">再次點擊按鈕進行驗證</string>
+    <string name="gt3_geetest_close"> 驗證碼已關閉</string>
+    <string name="gt3_geetest_closed_try_again">已關閉,請重試</string>
+    <string name="gt3_geetest_cof"> 請點擊重試</string>
+    <string name="gt3_geetest_http_error">網絡連接失敗</string>
+    <string name="gt3_geetest_http_timeout">網絡超時</string>
+    <string name="gt3_geetest_jiance">智能分析中...</string>
+    <string name="gt3_geetest_success">驗證成功</string>
+    <string name="gt3_geetest_tong_guo">驗證通過</string>
+    <string name="gt3_geetest_wait">請完成上方驗證</string>
+    <string name="gt3_geetest_zhi_chi">極驗提供技術支持</string>
+    <string name="gt3_geetest_zhi_neng">智能驗證檢測中</string>
+    <style name="gt3Widget.GifView" parent="@android:style/Widget"/>
+</resources>

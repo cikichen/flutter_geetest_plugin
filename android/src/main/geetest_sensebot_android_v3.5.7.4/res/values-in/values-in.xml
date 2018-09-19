@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="gt3CustomTheme">
+        <attr format="reference" name="gt3gifViewStyle"/>
+    </declare-styleable>
+    <declare-styleable name="gt3GifView">
+        <attr format="reference" name="gt3gif"/>
+        <attr format="boolean" name="gt3paused"/>
+    </declare-styleable>
+    <string name="gt3_geetest_again">Silahkan mencoba lagi</string>
+    <string name="gt3_geetest_click">Klik tombol ini untk verifikasi</string>
+    <string name="gt3_geetest_click_again">Klik tombol lagi untu vuerifikasi</string>
+    <string name="gt3_geetest_close">Verifikasi tidak aktif</string>
+    <string name="gt3_geetest_closed_try_again">Batalkan</string>
+    <string name="gt3_geetest_cof">Klik coba la=gi</string>
+    <string name="gt3_geetest_http_error">Kegagalan jaringan internet</string>
+    <string name="gt3_geetest_http_timeout">Batas waktu jaringan habis</string>
+    <string name="gt3_geetest_jiance">Dlm proses verifikasi…</string>
+    <string name="gt3_geetest_success">Proses verifikasi berhasil</string>
+    <string name="gt3_geetest_tong_guo">Melalui verifikasi</string>
+    <string name="gt3_geetest_wait">Silahkan menyelesaikan verifikasi</string>
+    <string name="gt3_geetest_zhi_chi">Dukungan teknis</string>
+    <string name="gt3_geetest_zhi_neng">Dlm proses verifikasi…</string>
+    <style name="gt3Widget.GifView" parent="@android:style/Widget"/>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="220dp"
+    android:layout_height="140dp"
+    android:layout_centerInParent="true"
+    android:background="@drawable/gt3_dialog_shape">
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/lay_re"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/gt3_ot_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/gt3ovv" />
+
+        <TextView
+            android:id="@+id/gt3_ot_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gt3_ot_iv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/gt3_geetest_http_timeout"
+            android:textColor="#005aff"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_test_geetest_cord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/lay_re"
+        android:layout_marginBottom="2dp"
+        android:layout_marginRight="2dp"
+        android:text="100"
+        android:textColor="#c3c3c3"
+        android:textSize="9sp" />
+
+    <View
+        android:id="@+id/gt3_ot_view3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/gt3_ot_llll"
+        android:background="#efefef"
+        android:visibility="invisible" />
+
+
+
+    <RelativeLayout
+        android:id="@+id/gt3_ot_llll"
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/gt3_ot_tvvv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/gt3logo"
+            android:drawablePadding="4dp"
+            android:text="@string/gt3_geetest_zhi_chi"
+            android:textColor="#cacaca"
+            android:textSize="10sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

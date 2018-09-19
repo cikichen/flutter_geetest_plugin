@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="220dp"
+    android:layout_height="140dp"
+    android:layout_centerInParent="true"
+    android:background="@drawable/gt3_dialog_shape">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+
+        <com.geetest.sdk.Bind.GT3GifView
+            android:id="@+id/gt3_wait_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/gt3_wait_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gt3_wait_iv"
+            android:layout_centerHorizontal="true"
+            android:text="@string/gt3_geetest_zhi_neng"
+            android:textColor="#595959"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+
+    <View
+        android:id="@+id/gt3_wait_view1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/gt3_wait_ll"
+        android:background="#efefef"
+        android:visibility="invisible" />
+
+    <RelativeLayout
+        android:id="@+id/gt3_wait_ll"
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/gt3_wait_tvvv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/gt3logo"
+            android:drawablePadding="4dp"
+            android:text="@string/gt3_geetest_zhi_chi"
+            android:textColor="#cacaca"
+            android:textSize="10sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+

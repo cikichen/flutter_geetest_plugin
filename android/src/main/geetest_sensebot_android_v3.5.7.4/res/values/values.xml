@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="gt3CustomTheme"><attr format="reference" name="gt3gifViewStyle"/></declare-styleable>
+    <declare-styleable name="gt3GifView"><attr format="reference" name="gt3gif"/><attr format="boolean" name="gt3paused"/></declare-styleable>
+    <string name="app_name">Gt3Release</string>
+    <string name="gt3_geetest_again">验证未通过 请重试</string>
+    <string name="gt3_geetest_click">点击按钮进行验证</string>
+    <string name="gt3_geetest_click_again">再次点击按钮进行验证</string>
+    <string name="gt3_geetest_close"> 验证码已关闭</string>
+    <string name="gt3_geetest_closed_try_again">已关闭,请重试</string>
+    <string name="gt3_geetest_cof"> 请点击重试</string>
+    <string name="gt3_geetest_http_error">网络连接失败</string>
+    <string name="gt3_geetest_http_timeout">网络超时</string>
+    <string name="gt3_geetest_jiance">智能分析中...</string>
+    <string name="gt3_geetest_success">验证成功</string>
+    <string name="gt3_geetest_tong_guo">验证通过</string>
+    <string name="gt3_geetest_wait">请完成上方验证</string>
+    <string name="gt3_geetest_zhi_chi">极验提供技术支持</string>
+    <string name="gt3_geetest_zhi_neng">智能验证检测中</string>
+    <string name="gt3_request_data_error">request data error</string>
+    <string name="gt3_request_net_erroe">request net error</string>
+    <style name="gt3Widget.GifView" parent="@android:style/Widget"/>
+</resources>

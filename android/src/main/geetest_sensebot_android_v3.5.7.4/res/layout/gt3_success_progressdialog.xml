@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="220dp"
+    android:layout_height="140dp"
+    android:layout_centerInParent="true"
+    android:background="@drawable/gt3_dialog_shape">
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+    <com.geetest.sdk.Bind.GT3View
+        android:id="@+id/gt3_success_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_centerHorizontal="true"
+
+        />
+    <TextView
+        android:id="@+id/gt3_success_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gt3_success_iv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/gt3_geetest_tong_guo"
+        android:textColor="#00aa00"
+        android:textSize="14sp" />
+</RelativeLayout>
+
+    <View
+
+        android:visibility="invisible"
+        android:id="@+id/gt3_success_view2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/gt3_success_lll"
+        android:background="#efefef" />
+
+    <RelativeLayout
+        android:visibility="invisible"
+        android:id="@+id/gt3_success_lll"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="26dp">
+
+        <TextView
+            android:id="@+id/gt3_success_tvvv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/gt3_geetest_zhi_chi"
+            android:textColor="#cacaca"
+            android:drawableLeft="@drawable/gt3logo"
+            android:drawablePadding="4dp"
+            android:textSize="10sp"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>

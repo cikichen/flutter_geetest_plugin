@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="gt3CustomTheme">
+        <attr format="reference" name="gt3gifViewStyle"/>
+    </declare-styleable>
+    <declare-styleable name="gt3GifView">
+        <attr format="reference" name="gt3gif"/>
+        <attr format="boolean" name="gt3paused"/>
+    </declare-styleable>
+    <string name="gt3_geetest_again">Please try again</string>
+    <string name="gt3_geetest_click">Please click captcha button</string>
+    <string name="gt3_geetest_click_again">Please click captcha button again</string>
+    <string name="gt3_geetest_close">Closed</string>
+    <string name="gt3_geetest_closed_try_again">Closed,try again</string>
+    <string name="gt3_geetest_cof"> Click Retry</string>
+    <string name="gt3_geetest_http_error">Network Faliure</string>
+    <string name="gt3_geetest_http_timeout">Network Timeout</string>
+    <string name="gt3_geetest_jiance">Analysing...</string>
+    <string name="gt3_geetest_success">Success</string>
+    <string name="gt3_geetest_tong_guo">Success</string>
+    <string name="gt3_geetest_wait">Please complete verification</string>
+    <string name="gt3_geetest_zhi_chi">Geetest provides technical support</string>
+    <string name="gt3_geetest_zhi_neng">Intelligent Verification</string>
+    <style name="gt3Widget.GifView" parent="@android:style/Widget"/>
+</resources>

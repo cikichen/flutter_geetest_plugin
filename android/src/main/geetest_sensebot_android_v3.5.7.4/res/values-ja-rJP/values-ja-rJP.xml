@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="gt3CustomTheme">
+        <attr format="reference" name="gt3gifViewStyle"/>
+    </declare-styleable>
+    <declare-styleable name="gt3GifView">
+        <attr format="reference" name="gt3gif"/>
+        <attr format="boolean" name="gt3paused"/>
+    </declare-styleable>
+    <string name="gt3_geetest_again">リトライする</string>
+    <string name="gt3_geetest_click">ボタンをクリック</string>
+    <string name="gt3_geetest_click_again">ボタンをクリック</string>
+    <string name="gt3_geetest_close">リトライする</string>
+    <string name="gt3_geetest_closed_try_again">リトライする</string>
+    <string name="gt3_geetest_cof">リトライする</string>
+    <string name="gt3_geetest_http_error">ネットワーク故障</string>
+    <string name="gt3_geetest_http_timeout">ネットワーク故障</string>
+    <string name="gt3_geetest_jiance">スマート分析中…</string>
+    <string name="gt3_geetest_success">検証に成功する</string>
+    <string name="gt3_geetest_tong_guo">検証に合格する</string>
+    <string name="gt3_geetest_wait">クリック</string>
+    <string name="gt3_geetest_zhi_chi">Geetest が技術サポートを提供する</string>
+    <string name="gt3_geetest_zhi_neng">スマート検証検出中…</string>
+    <style name="gt3Widget.GifView" parent="@android:style/Widget"/>
+</resources>
