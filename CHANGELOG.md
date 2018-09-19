@@ -5,3 +5,7 @@
 ## 0.0.2
 
 * fixed android libs
+
+## 0.0.5
+
+* fixed android geetest libs
