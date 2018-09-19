@@ -11,7 +11,7 @@ DEPENDENCIES:
   - GT3Captcha
 
 SPEC REPOS:
-  "ssh://git@phab.srv.codemao.cn/source/ios_common_spec_repo.git":
+  https://github.com/cocoapods/specs.git:
     - GT3Captcha
 
 EXTERNAL SOURCES:
@@ -23,8 +23,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
   geetest_plugin: 1ae8da023b0076d439b536451d2714cd2aedf6c1
-  GT3Captcha: 91bc60f3e323debd982213c2d58bd6d24fec4eaa
+  GT3Captcha: e4af625c8421cb82e7fcf694e867301f716a2fb7
 
-PODFILE CHECKSUM: 8a97d9a51fb964bec05eea208689c6dee81dcf24
+PODFILE CHECKSUM: 28b8c05fc9d5671bf3c2e1073711bbd78f53d658
 
 COCOAPODS: 1.6.0.beta.1

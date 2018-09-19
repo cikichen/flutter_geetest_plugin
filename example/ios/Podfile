@@ -1,4 +1,3 @@
-source 'ssh://git@phab.srv.codemao.cn/source/ios_common_spec_repo.git'
 source 'https://github.com/CocoaPods/Specs.git'
 # Uncomment this line to define a global platform for your project
  platform :ios, '9.0'

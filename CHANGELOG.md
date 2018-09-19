@@ -9,3 +9,7 @@
 ## 0.0.5
 
 * fixed android geetest libs
+
+## 0.0.6
+
+* fixed iOS GT3Captcha pod
