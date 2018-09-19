@@ -20,7 +20,7 @@ Add this to your package's pubspec.yaml file:
 
 ```
 dependencies:
-  geetest_plugin: ^0.0.3
+  geetest_plugin: ^0.0.8
 ```
 
 ### 2. Install it

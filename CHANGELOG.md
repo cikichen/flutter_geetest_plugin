@@ -13,3 +13,7 @@
 ## 0.0.6
 
 * fixed iOS GT3Captcha pod
+
+## 0.0.8
+
+* update readme
