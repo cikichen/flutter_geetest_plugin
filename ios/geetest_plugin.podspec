@@ -2,15 +2,15 @@
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 Pod::Spec.new do |s|
-  s.name             = 'geetest_plugin'
-  s.version          = '0.0.1'
+  s.name             = 'flutter_geetest_plugin'
+  s.version          = '0.0.6'
   s.summary          = 'Geetest Flutter plugin.'
   s.description      = <<-DESC
 Geetest Flutter plugin.
                        DESC
-  s.homepage         = 'http://example.com'
+  s.homepage         = 'https://github.com/cikichen/flutter_geetest_plugin'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Your Company' => 'email@example.com' }
+  s.author           = { 'SimonChen' => 'admin@ithome.me' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'

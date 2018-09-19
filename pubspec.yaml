@@ -1,6 +1,6 @@
-name: geetest_plugin
+name: flutter_geetest_plugin
 description: Geetest Flutter plugin.
-version: 0.0.5
+version: 0.0.6
 author: SimonChen <admin@ithome.me>
 homepage: https://github.com/cikichen/flutter_geetest_plugin
 
