@@ -2,8 +2,8 @@
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 Pod::Spec.new do |s|
-  s.name             = 'flutter_geetest_plugin'
-  s.version          = '0.0.6'
+  s.name             = 'geetest_plugin'
+  s.version          = '0.1.0'
   s.summary          = 'Geetest(GT3Captcha) Flutter plugin.'
   s.description      = <<-DESC
 Geetest Flutter plugin.

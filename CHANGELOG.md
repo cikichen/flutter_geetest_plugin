@@ -17,3 +17,7 @@
 ## 0.0.8
 
 * update readme
+
+## 0.1.0
+
+* update ios podspec
