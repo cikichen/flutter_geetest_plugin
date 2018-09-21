@@ -21,3 +21,7 @@
 ## 0.1.0
 
 * update ios podspec
+
+## 0.1.1
+
+* update doc

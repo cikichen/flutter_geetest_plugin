@@ -1,5 +1,5 @@
 name: geetest_plugin
-description: Geetest(GT3Captcha) Flutter plugin.
+description: Geetest(GT3Captcha) Flutter plugin(Flutter极验验证插件).
 version: 0.1.0
 author: SimonChen <admin@ithome.me>
 homepage: https://github.com/cikichen/flutter_geetest_plugin
