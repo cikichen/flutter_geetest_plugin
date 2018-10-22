@@ -1,3 +1,7 @@
+## 0.1.3
+
+* fix ios geetest libs
+
 ## 0.1.2
 
 * fix ios geetest libs
