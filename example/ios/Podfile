@@ -1,3 +1,4 @@
+source 'ssh://git@phab.srv.codemao.cn/source/ios_common_spec_repo.git'
 source 'https://github.com/CocoaPods/Specs.git'
 # Uncomment this line to define a global platform for your project
  platform :ios, '9.0'
@@ -54,7 +55,7 @@ target 'Runner' do
     pod p[:name], :path => File.join(symlink, 'ios')
   }
   
-  pod 'GT3Captcha'
+  pod 'GT3Captcha', '~> 0.0.9'
 end
 
 post_install do |installer|

@@ -1,27 +1,31 @@
-## 0.0.1
+## 0.1.2
 
-* base api.
+* fix ios geetest libs
 
-## 0.0.2
+## 0.1.1
 
-* fixed android libs
-
-## 0.0.5
-
-* fixed android geetest libs
-
-## 0.0.6
-
-* fixed iOS GT3Captcha pod
-
-## 0.0.8
-
-* update readme
+* update doc
 
 ## 0.1.0
 
 * update ios podspec
 
-## 0.1.1
+## 0.0.8
 
-* update doc
+* update readme
+
+## 0.0.6
+
+* fixed iOS GT3Captcha pod
+
+## 0.0.5
+
+* fixed android geetest libs
+
+## 0.0.2
+
+* fixed android libs
+
+## 0.0.1
+
+* base api.
