@@ -21,7 +21,7 @@ public class GeetestPlugin implements MethodCallHandler {
 
     private static final String captchaURL = "";
     //private static final String captchaURL = "http://www.geetest.com/demo/gt/register-slide";
-    private static final String validateURL = "http://www.geetest.com/demo/gt/validate-slide";
+    private static final String validateURL = "https://www.geetest.com/demo/gt/validate-slide";
     private static GT3GeetestUtilsBind gt3GeetestUtils;
     private final Registrar mRegistrar;
 
@@ -35,7 +35,7 @@ public class GeetestPlugin implements MethodCallHandler {
         // 设置是否可以点击Dialog灰色区域关闭验证码
         gt3GeetestUtils.setDialogTouch(true);
         // 设置debug模式，开代理抓包可使用，默认关闭，生产环境务必设置为false
-        gt3GeetestUtils.setDebug(true);
+        gt3GeetestUtils.setDebug(false);
         // 设置加载webview超时时间，单位毫秒，默认15000，仅且webview加载静态文件超时，不包括之前的http请求
         gt3GeetestUtils.setTimeout(15000);
         // 设置webview请求超时(用户点选或滑动完成，前端请求后端接口)，单位毫秒，默认10000

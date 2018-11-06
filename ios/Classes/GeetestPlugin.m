@@ -3,7 +3,7 @@
 //网站主部署的用于验证注册的接口 (api_1)
 //#define api_1 @""
 //网站主部署的二次验证的接口 (api_2)
-#define api_2 @"http://www.geetest.com/demo/gt/validate-slide"
+#define api_2 @"https://www.geetest.com/demo/gt/validate-slide"
 
 @interface GeetestPlugin () <GT3CaptchaManagerDelegate, GT3CaptchaManagerViewDelegate>
 
