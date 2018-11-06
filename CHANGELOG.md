@@ -1,3 +1,7 @@
+## 0.1.5
+
+* fix ios geetest lib version
+
 ## 0.1.4
 
 * fix geetest https
