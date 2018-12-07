@@ -15,7 +15,7 @@ Geetest Flutter plugin.
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
-  s.dependency 'GT3Captcha', '~> 0.0.9'
+  s.dependency 'GT3Captcha', '~> 0.1.4'
   
   s.ios.deployment_target = '8.0'
 end
