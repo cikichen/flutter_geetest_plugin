@@ -3,7 +3,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'geetest_plugin'
-  s.version          = '0.1.3'
+  s.version          = '0.1.7'
   s.summary          = 'Geetest(GT3Captcha) Flutter plugin.'
   s.description      = <<-DESC
 Geetest Flutter plugin.
@@ -15,7 +15,7 @@ Geetest Flutter plugin.
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
-  s.dependency 'GT3Captcha', '~> 0.1.4'
+  s.dependency 'GT3Captcha', '~> 0.1.5'
   
   s.ios.deployment_target = '8.0'
 end

@@ -1,3 +1,7 @@
+## 0.1.7
+
+* update flutter 1.5.4
+
 ## 0.1.6
 
 * fix flutter 1.0

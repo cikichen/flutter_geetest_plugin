@@ -1,3 +1,5 @@
+package android
+
 group 'me.ithome.geetestplugin'
 version '1.0-SNAPSHOT'
 buildscript {
@@ -8,7 +10,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.1.2'
+        classpath 'com.android.tools.build:gradle:3.4.1'
     }
 }
 rootProject.allprojects {
