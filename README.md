@@ -1,4 +1,4 @@
-[![pub package](https://img.shields.io/badge/pub-0.1.7-brightgreen.svg)](https://pub.dartlang.org/packages/geetest_plugin) [![Build Status](https://travis-ci.com/cikichen/flutter_geetest_plugin.svg?branch=master)](https://travis-ci.com/cikichen/flutter_geetest_plugin)
+[![pub package](https://img.shields.io/badge/pub-0.1.8-brightgreen.svg)](https://pub.dartlang.org/packages/geetest_plugin) [![Build Status](https://travis-ci.com/cikichen/flutter_geetest_plugin.svg?branch=master)](https://travis-ci.com/cikichen/flutter_geetest_plugin)
 
 # geetest_plugin
 
@@ -20,7 +20,7 @@ Add this to your package's pubspec.yaml file:
 
 ```
 dependencies:
-  geetest_plugin: ^0.1.7
+  geetest_plugin: ^0.1.8
 ```
 
 ### 2. Install it

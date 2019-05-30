@@ -1,3 +1,11 @@
+## 0.2.0
+
+* fix ios geetest lib version
+
+## 0.1.8
+
+* fix ios geetest lib version
+
 ## 0.1.7
 
 * update flutter 1.5.4
