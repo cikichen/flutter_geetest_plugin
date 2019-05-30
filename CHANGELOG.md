@@ -1,3 +1,7 @@
+## 0.2.1
+
+* update README
+
 ## 0.2.0
 
 * fix ios geetest lib version
