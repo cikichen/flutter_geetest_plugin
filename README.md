@@ -1,4 +1,4 @@
-[![pub package](https://img.shields.io/badge/pub-0.2.1-brightgreen.svg)](https://pub.dartlang.org/packages/geetest_plugin) [![Build Status](https://travis-ci.com/cikichen/flutter_geetest_plugin.svg?branch=master)](https://travis-ci.com/cikichen/flutter_geetest_plugin)
+[![pub package](https://img.shields.io/badge/pub-0.3.1-brightgreen.svg)](https://pub.dartlang.org/packages/geetest_plugin) [![Build Status](https://travis-ci.com/cikichen/flutter_geetest_plugin.svg?branch=master)](https://travis-ci.com/cikichen/flutter_geetest_plugin)
 
 # geetest_plugin
 

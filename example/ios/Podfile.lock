@@ -1,18 +1,18 @@
 PODS:
   - Flutter (1.0.0)
-  - geetest_plugin (0.1.7):
+  - geetest_plugin (0.2.1):
     - Flutter
-    - GT3Captcha (~> 0.1.5)
-  - GT3Captcha (0.1.5)
+    - GT3Captcha-iOS
+  - GT3Captcha-iOS (0.12.6)
 
 DEPENDENCIES:
   - Flutter (from `.symlinks/flutter/ios`)
   - geetest_plugin (from `.symlinks/plugins/geetest_plugin/ios`)
-  - GT3Captcha (~> 0.1.5)
+  - GT3Captcha-iOS
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - GT3Captcha
+  trunk:
+    - GT3Captcha-iOS
 
 EXTERNAL SOURCES:
   Flutter:
@@ -21,10 +21,10 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/geetest_plugin/ios"
 
 SPEC CHECKSUMS:
-  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
-  geetest_plugin: 56355c0ec963174fbce4260a68021aac7298fce9
-  GT3Captcha: f22fc7c7ec9749799f8f0d41d9ee7e8ef761e225
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  geetest_plugin: 1a110b155fcc2ebafcc736dae6b6331dd22f45e4
+  GT3Captcha-iOS: d13c34bb0516e69ad88d05cc9e54cf91734cf8f7
 
-PODFILE CHECKSUM: e02a5476010e0a9c0fc16c3d61debdf54940bacc
+PODFILE CHECKSUM: 626e856be355c9e0dbfac361ffaac0f35f5c640a
 
-COCOAPODS: 1.7.0
+COCOAPODS: 1.8.4

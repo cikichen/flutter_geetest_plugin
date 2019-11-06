@@ -53,7 +53,7 @@ target 'Runner' do
     pod p[:name], :path => File.join(symlink, 'ios')
   }
   
-  pod 'GT3Captcha', '~> 0.1.5'
+  pod 'GT3Captcha-iOS'
 end
 
 post_install do |installer|
