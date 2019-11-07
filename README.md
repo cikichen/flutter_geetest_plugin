@@ -20,7 +20,7 @@ Add this to your package's pubspec.yaml file:
 
 ```
 dependencies:
-  geetest_plugin: ^0.3.4
+  flutter_geetest_plugin: ^0.3.4
 ```
 
 ### 2. Install it

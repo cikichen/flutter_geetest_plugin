@@ -1,4 +1,4 @@
-include ':app', ':geetest_sensebot_android_v3.5.7.4'
+include ':app'
 
 def flutterProjectRoot = rootProject.projectDir.parentFile.toPath()
 
