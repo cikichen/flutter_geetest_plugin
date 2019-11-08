@@ -1,5 +1,3 @@
-//package android
-
 group 'me.ithome.geetestplugin'
 version '1.0-SNAPSHOT'
 buildscript {
@@ -26,16 +24,23 @@ android {
 
     defaultConfig {
         minSdkVersion 16
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
         disable 'InvalidPackage'
     }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+    buildToolsVersion = '28.0.3'
 
 
 }
 
 dependencies {
-    implementation 'com.android.support:appcompat-v7:27.1.1'
-    api 'me.ithome.android.geetest:geetestlib:3.5.7.5'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    api 'me.ithome.android.geetest:geetestlib:4.1.6_20191107'
+    api 'com.tencent.tbs.tbssdk:sdk:43697'
+    api 'com.squareup.okhttp3:okhttp:4.2.2'
 }

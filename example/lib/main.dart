@@ -2,19 +2,17 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:geetest_plugin/geetest_plugin.dart';
+import 'package:flutter_geetest_plugin/flutter_geetest_plugin.dart';
 
-void main() => runApp(new MyApp());
+void main() => runApp(MyApp());
 
 class MyApp extends StatefulWidget {
   @override
-  _MyAppState createState() => new _MyAppState();
+  _MyAppState createState() => _MyAppState();
 }
 
 class _MyAppState extends State<MyApp> {
   String _platformVersion = 'Unknown';
-
-  String _batteryLevel = 'Unknown battery level.';
 
   @override
   void initState() {
@@ -27,7 +25,7 @@ class _MyAppState extends State<MyApp> {
     String platformVersion;
     // Platform messages may fail, so we use a try/catch PlatformException.
     try {
-      platformVersion = await GeetestPlugin.platformVersion;
+      platformVersion = await FlutterGeetestPlugin.platformVersion;
     } on PlatformException {
       platformVersion = 'Failed to get platform version.';
     }
@@ -46,7 +44,7 @@ class _MyAppState extends State<MyApp> {
     String result;
     // Platform messages may fail, so we use a try/catch PlatformException.
     try {
-      result = await GeetestPlugin.getGeetest('http://www.geetest.com/demo/gt/register-slide');
+      result = await FlutterGeetestPlugin.getGeetest('https://www.geetest.com/demo/gt/register-slide', 'https://www.geetest.com/demo/gt/validate-slide');
     } on PlatformException {
 //      platformVersion = 'Failed to get platform version.';
     }

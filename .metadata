@@ -7,4 +7,4 @@ version:
   revision: e70236e36ce1d32067dc68eb55519ec3e14b6b01
   channel: beta
 
-project_type: app
+project_type: plugin
