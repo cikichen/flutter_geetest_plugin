@@ -1,4 +1,4 @@
-[![pub package](https://img.shields.io/badge/pub-1.0.0-brightgreen.svg)](https://pub.dartlang.org/packages/geetest_plugin) [![Build Status](https://travis-ci.com/cikichen/flutter_geetest_plugin.svg?branch=master)](https://travis-ci.com/cikichen/flutter_geetest_plugin)
+[![pub package](https://img.shields.io/badge/pub-1.0.2-brightgreen.svg)](https://pub.dartlang.org/packages/geetest_plugin) [![Build Status](https://travis-ci.com/cikichen/flutter_geetest_plugin.svg?branch=master)](https://travis-ci.com/cikichen/flutter_geetest_plugin)
 
 # flutter_geetest_plugin
 
@@ -20,7 +20,7 @@ Add this to your package's pubspec.yaml file:
 
 ```
 dependencies:
-  flutter_geetest_plugin: ^1.0.0
+  flutter_geetest_plugin: ^1.0.2
 ```
 
 ### 2. Install it
@@ -50,7 +50,7 @@ import 'package:geetest_plugin/geetest_plugin.dart';
     String result;
     // Platform messages may fail, so we use a try/catch PlatformException.
     try {
-      result = await GeetestPlugin.getGeetest('url: api1');
+      result = await GeetestPlugin.getGeetest('url: api1', 'url: api2');
     } on PlatformException {
 //      _json = 'Failed to get platform version.';
     }

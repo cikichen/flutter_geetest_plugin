@@ -1,3 +1,7 @@
+## 1.0.1
+
+* Stable version
+
 ## 0.3.2
 
 * fix geetest-ios
