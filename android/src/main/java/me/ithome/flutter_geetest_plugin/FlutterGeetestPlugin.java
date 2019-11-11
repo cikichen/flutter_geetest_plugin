@@ -1,5 +1,8 @@
 package me.ithome.flutter_geetest_plugin;
 
+import android.annotation.SuppressLint;
+import android.app.Activity;
+import android.content.Context;
 import android.os.AsyncTask;
 import android.text.TextUtils;
 import android.util.Log;
@@ -10,6 +13,7 @@ import com.geetest.sdk.GT3GeetestUtils;
 import com.geetest.sdk.GT3Listener;
 import com.tencent.smtt.sdk.QbSdk;
 
+import org.jetbrains.annotations.NotNull;
 import org.json.JSONObject;
 
 import io.flutter.plugin.common.MethodCall;
@@ -25,11 +29,12 @@ public class FlutterGeetestPlugin implements MethodCallHandler {
   private static String validateURL = "https://www.geetest.com/demo/gt/validate-slide";
   private GT3GeetestUtils gt3GeetestUtils;
   private GT3ConfigBean gt3ConfigBean;
-  private final Registrar mRegistrar;
+  //  private final Registrar mRegistrar;
   private static final String TAG = "flutter_geetest";
+  private Result flutterResult;
 
   private FlutterGeetestPlugin(Registrar registrar) {
-    this.mRegistrar = registrar;
+    //    this.mRegistrar = registrar;
 
     QbSdk.PreInitCallback cb =
         new QbSdk.PreInitCallback() {
@@ -89,6 +94,7 @@ public class FlutterGeetestPlugin implements MethodCallHandler {
           @Override
           public void onDialogResult(String result) {
             Log.e(TAG, "GT3BaseListener-->onDialogResult-->" + result);
+            flutterResult.success(result);
             // 开启api2逻辑
             new RequestAPI2().execute(result);
           }
@@ -133,12 +139,13 @@ public class FlutterGeetestPlugin implements MethodCallHandler {
   }
 
   @Override
-  public void onMethodCall(MethodCall call, final Result result) {
+  public void onMethodCall(MethodCall call, @NotNull final Result result) {
     switch (call.method) {
       case "getPlatformVersion":
         result.success("Android " + android.os.Build.VERSION.RELEASE);
         break;
       case "getGeetest":
+        flutterResult = result;
         captchaURL = call.argument("api1");
         validateURL = call.argument("api2");
         // 开启验证
@@ -187,6 +194,7 @@ public class FlutterGeetestPlugin implements MethodCallHandler {
   }
 
   /** 请求api1 */
+  @SuppressLint("StaticFieldLeak")
   class RequestAPI1 extends AsyncTask<Void, Void, JSONObject> {
 
     @Override
@@ -215,6 +223,7 @@ public class FlutterGeetestPlugin implements MethodCallHandler {
   }
 
   /** 请求api2 */
+  @SuppressLint("StaticFieldLeak")
   class RequestAPI2 extends AsyncTask<String, Void, String> {
 
     @Override
@@ -233,6 +242,7 @@ public class FlutterGeetestPlugin implements MethodCallHandler {
         try {
           JSONObject jsonObject = new JSONObject(result);
           String status = jsonObject.getString("status");
+
           if ("success".equals(status)) {
             gt3GeetestUtils.showSuccessDialog();
           } else {

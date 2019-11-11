@@ -45,7 +45,7 @@ class _MyAppState extends State<MyApp> {
     // Platform messages may fail, so we use a try/catch PlatformException.
     try {
       result = await FlutterGeetestPlugin.getGeetest('https://www.geetest.com/demo/gt/register-slide', 'https://www.geetest.com/demo/gt/validate-slide');
-    } on PlatformException {
+    } on Exception {
 //      platformVersion = 'Failed to get platform version.';
     }
 
@@ -69,7 +69,7 @@ class _MyAppState extends State<MyApp> {
         body: new Center(
           child: Column(
             children: <Widget>[
-              new Text('Running on: $_platformVersion\n'),
+              new Text('$_platformVersion\n'),
               RaisedButton(
                 onPressed: getGeetest,
                 child: Text("geetest"),
