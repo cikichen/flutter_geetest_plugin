@@ -1,3 +1,7 @@
+## 1.0.4
+
+* remove androidx
+
 ## 1.0.3
 
 * fix android result
