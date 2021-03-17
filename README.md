@@ -1,6 +1,6 @@
 [![pub package](https://img.shields.io/badge/pub-1.0.5-brightgreen.svg)](https://pub.dev/packages/flutter_geetest_plugin) [![Build Status](https://travis-ci.com/cikichen/flutter_geetest_plugin.svg?branch=master)](https://travis-ci.com/cikichen/flutter_geetest_plugin)
 
-# flutter_geetest_plugin
+![flutter_geetest_plugin](https://socialify.git.ci/cikichen/flutter_geetest_plugin/image?description=1&font=Inter&forks=1&language=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Light)
 
 Geetest Flutter plugin.
 
